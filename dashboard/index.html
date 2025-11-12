@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>API Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Simple API Dashboard</h1>
+    <p class="muted">Calls the local API server (http://localhost:3000). Ensure the server is running and CORS is allowed or serve this dashboard from a local HTTP server.</p>
+  </header>
+
+  <main>
+    <section id="endpoints"></section>
+
+    <section id="response">
+      <h2>Response</h2>
+      <pre id="responseContent">No response yet.</pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
